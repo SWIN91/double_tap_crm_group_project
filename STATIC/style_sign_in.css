@@ -1,0 +1,112 @@
+#body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#firstquestion {
+    color: white;
+    text-align: center;
+}
+
+#secondquestion {
+    color: white;
+    text-align: center;
+}
+
+#signupbutton {
+    color: white;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+#signinheader {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#username {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+    background-image: url("IMAGES/CRM-Main/Page-1.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+#email {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+    background-image: url("IMAGES/CRM-Main/emaillogo.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    
+}
+
+#password {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+    background-image: url("IMAGES/CRM-Main/passwordlogo.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+#signinbutton {
+    border-radius: 30px;
+    /* I cannot figure out how to center this or make it longer! I'm losing it!*/
+}
+
+#sentence {
+    text-align: center;
+}
+
+#icons {
+    display: flex;
+    /* I cannot figure out how to center, space, and size these! I'm losing it!*/
+}
+
+#fbicon {
+    border-color: black;
+    border-radius: 30px;
+    background-color: white;
+    background-image: url("IMAGES/CRM-Main/Path\ 151.png");
+    background-repeat: no-repeat;
+    background-position: 0.5px;
+
+}
+
+#twtricon {
+    border-color: black;
+    border-radius: 30px;
+    background-color: white;
+    background-image: url("IMAGES/CRM-Main/Path\ 152.png");
+    background-repeat: no-repeat;
+}
+
+#gglicon {
+    border-color: black;
+    border-radius: 30px;
+    background-color: white;
+    background-image: url("IMAGES/CRM-Main/googleicon.png");
+    background-repeat: no-repeat;
+}
+
+#lnkdnicon {
+    border-color: black;
+    border-radius: 30px;
+    background-color: white;
+    background-image: url("IMAGES/CRM-Main/linkedinicon.png");
+    background-repeat: no-repeat;
+}
